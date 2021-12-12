@@ -1,0 +1,58 @@
+{
+  "restaurant": [
+    {
+      "name": "NYDC",
+      "id": 0,
+      "laditude": 120,
+      "longditude": 89,
+      "rating": 4
+    },
+    {
+      "name": "cafe",
+      "id": 1,
+      "laditude": 135,
+      "longditude": 29,
+      "rating": 5
+    },
+    {
+      "name": "kon",
+      "id": 2,
+      "laditude": 87.4,
+      "longditude": 89.8,
+      "rating": 2
+    },
+    {
+      "name": "kdc",
+      "id": 3,
+      "laditude": 20,
+      "longditude": 49,
+      "rating": 1
+    },
+    {
+      "name": "NYDC",
+      "laditude": -150,
+      "longditude": -89,
+      "rating": 2,
+      "id": 4
+    },
+    {
+      "name": "DC",
+      "laditude": -130,
+      "longditude": 89,
+      "rating": 2,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
