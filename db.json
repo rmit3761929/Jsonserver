@@ -1,58 +1,77 @@
 {
-  "restaurant": [
+  "Leader": [
     {
-      "name": "NYDC",
-      "id": 0,
-      "laditude": 120,
-      "longditude": 89,
-      "rating": 4
+      "id": "0",
+      "name": "Robert Smith",
+      "Email": "Robert@gmail.com",
+      "password":"12345"
     },
     {
-      "name": "cafe",
-      "id": 1,
-      "laditude": 135,
-      "longditude": 29,
-      "rating": 5
+      "id": "1",
+      "name": "Smith Sweat",
+      "Email": "Smith@gmail.com",
+      "password":"12345"
     },
     {
-      "name": "kon",
-      "id": 2,
-      "laditude": 87.4,
-      "longditude": 89.8,
-      "rating": 2
-    },
-    {
-      "name": "kdc",
-      "id": 3,
-      "laditude": 20,
-      "longditude": 49,
-      "rating": 1
-    },
-    {
-      "name": "NYDC",
-      "laditude": -150,
-      "longditude": -89,
-      "rating": 2,
-      "id": 4
-    },
-    {
-      "name": "DC",
-      "laditude": -130,
-      "longditude": 89,
-      "rating": 2,
-      "id": 5
+
+      "id": "2",
+      "name": "Jane Smith",
+      "Email": "Jane@gmail.com",
+      "password":"12345"
     }
   ],
-  "comments": [
+  "Sites": [
+    {
+      "id": 0,
+      "name": "Site1",
+      "Laditute": 122.34,
+      "Longitute": 34.45,
+      "NoOfVolunteer": "12"
+    },
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Site2",
+      "Laditute": 87.34,
+      "Longitute": 40.45,
+      "NoOfVolunteer": "12"
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "name": "Site3",
+      "Laditute": -22.34,
+      "Longitute": 14.45,
+      "NoOfVolunteer": "12"
     }
-  ]
+  ],
+  "Volunteer":[
+    {
+      "name": "con",
+      "id": 0,
+      "site_id": 0,
+      "site_name": "site1",
+      "role": "volunteer"
+    },
+    {
+      "name": "con",
+      "id": 1,
+      "site_id": 1,
+      "site_name": "site2",
+      "role": "volunteer"
+    },
+    {
+      "name": "con",
+      "id": 2,
+      "site_id": 2,
+      "site_name": "site3",
+      "role": "volunteer"
+    }
+  ],
+"SuperUser":[
+{
+"name": "SuperUser",
+"id":0,
+"password": "1234"
+}
+]
+
 }
